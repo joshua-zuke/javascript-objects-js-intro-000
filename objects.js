@@ -10,5 +10,5 @@ function updatePlaylist(obj, key, value){
 
 function removeFromPlaylist(playlist, key){
   delete playlist.key
-  return obj
+  return playlist
 }
